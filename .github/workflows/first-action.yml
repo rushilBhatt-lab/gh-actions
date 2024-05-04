@@ -1,5 +1,4 @@
 #Workflow
-
 name: First Workflow
 on: workflow_dispatch 
 jobs:
@@ -7,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-      #We are defining the command that will be executed in cmd line. 
+        #We are defining the command that will be executed in cmd line. 
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done - bye!"
